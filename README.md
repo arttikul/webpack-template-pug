@@ -13,7 +13,7 @@
 
 ``` bash
 # Download repository:
-git clone https://github.com/vedees/webpack-template-pug webpack-template-pug
+git clone https://github.com/arttikul/webpack-template-pug webpack-template-pug
 
 # Go to the app:
 cd webpack-template-pug
