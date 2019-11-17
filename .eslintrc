@@ -1,0 +1,35 @@
+{
+    "env": {
+        "browser": true,
+        "es6": true,
+        "node": true
+    },
+    "parserOptions": {
+        "parser": "babel-eslint"
+    },
+    "extends": [
+        "airbnb-base",
+        "plugin:vue/recommended"
+    ],
+    "rules": {
+        "no-console": "off",
+        "no-param-reassign": [
+            "error",
+            {
+                "props": true,
+                "ignorePropertyModificationsFor": [
+                    "state"
+                ]
+            }
+        ],
+        "vue/html-self-closing": ["error", {
+            "html": {
+                "void": "never",
+                "normal": "never",
+                "component": "always"
+            },
+            "svg": "always",
+            "math": "always"
+        }]
+    }
+}
